@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "login;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5142307627,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Firefox browser",
+            "match": {
+              "location": "loginSteps.user_Launch_Firefox_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1076497106,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Opens URL",
+            "match": {
+              "location": "loginSteps.user_Opens_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287063512,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters Username and pwd",
+            "match": {
+              "location": "loginSteps.user_Enters_Username_and_pwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4088560024,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks Login Button",
+            "match": {
+              "location": "loginSteps.user_Clicks_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3005263905,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Page Title Verified",
+            "match": {
+              "location": "loginSteps.page_Title_Verified()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 882806312,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Browser",
+            "match": {
+              "location": "loginSteps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
