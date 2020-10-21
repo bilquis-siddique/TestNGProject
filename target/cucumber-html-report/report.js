@@ -48,42 +48,42 @@ formatter.match({
   "location": "loginSteps.user_Launch_Firefox_browser()"
 });
 formatter.result({
-  "duration": 5364406044,
+  "duration": 3771496352,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.user_Opens_URL()"
 });
 formatter.result({
-  "duration": 1134276663,
+  "duration": 1347548212,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.user_Enters_Username_and_pwd()"
 });
 formatter.result({
-  "duration": 327596736,
+  "duration": 257947433,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.user_Clicks_Login_Button()"
 });
 formatter.result({
-  "duration": 3408154467,
+  "duration": 3861214040,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.page_Title_Verified()"
 });
 formatter.result({
-  "duration": 3008300691,
+  "duration": 3010201761,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.close_Browser()"
 });
 formatter.result({
-  "duration": 906282707,
+  "duration": 910770609,
   "status": "passed"
 });
 });
