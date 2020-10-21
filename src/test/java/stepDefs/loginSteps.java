@@ -2,6 +2,7 @@ package stepDefs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import cucumber.api.java.en.Given;
@@ -14,7 +15,7 @@ public class loginSteps {
 
 	@Given("User Launch Firefox browser")
 	public void user_Launch_Firefox_browser() {
-	    //System.setProperty("webdriver.gecko.driver", "/Users/bilquis/Documents/Selenium/MavenCucumberBDD/geckodriver.exe");
+	    //System.setProperty("webdriver.gecko.driver", "/Users/bilquis/Documents/Selenium/testProjectTestNG/geckodriver.exe");
 	    driver = new FirefoxDriver();
 	}
 
